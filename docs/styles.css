@@ -1,1 +1,68 @@
+body {
+	font-family: "Open Sans";
+}
 
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.fixed-top {
+	height: 85px;
+	border-style: solid;
+	border-color: white white rgba(126, 34, 126, 0.205) white;
+}
+
+/* HEADER */
+.header {
+	text-align: left;
+	position: absolute;
+	left: 10px;
+}
+
+.header small {
+	font-weight: lighter;
+}
+
+/* NAVIGATION */
+.page-nav {
+	min-height: 64px;
+	position: absolute;
+	top: 50px;
+	right: 5px;
+}
+
+.page-nav li {
+	float: left;
+	width: 120px;
+}
+
+.page-nav a {
+	font-weight: bold;
+	color: #000;
+}
+
+.page-navigation li a:hover {
+	color: rgb(136, 21, 121);
+}
+
+/* FOOTER */
+.footer {
+	bottom: 30px;
+	position: fixed;
+}
